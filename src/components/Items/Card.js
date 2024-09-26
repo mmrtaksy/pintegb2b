@@ -4,7 +4,7 @@ export default function Cardd({ item }) {
   return (
     <Link href="#">
       <Card shadow="none" className="py-4">
-        <CardHeader className="pb-0 pt-2 px-4 flex items-start gap-4">
+        <CardHeader className="pb-0 pt-2 px-4 flex flex-col lg:flex-row items-start gap-4">
           <Image
             alt="Card background"
             width={180}
